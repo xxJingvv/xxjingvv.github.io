@@ -135,9 +135,9 @@ export default function Footer() {
             </div>
             <div className="copyright">
                 <div className="container">
-                    <PText>
+                    <p style={{fontSize:'12px'}}>
                         © 2023 - Xiaojing Xu | Enjoy your life
-                    </PText>
+                    </p>
                 </div>
             </div>
         </FooterStyle>

@@ -8,7 +8,7 @@ import PText from './PText';
 const HeroStyles = styled.div`
   .hero {
     height: 100vh;
-    min-height: 900px;
+    min-height: 680px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -17,8 +17,8 @@ const HeroStyles = styled.div`
     position: relative;
   }
   .hero__heading {
-    font-size: 2rem;
-    margin-bottom: -4rem;
+    font-size: 1.6rem;
+    margin-bottom: -3rem;
     position: relative;
     color: (--light);
     span {
@@ -27,19 +27,19 @@ const HeroStyles = styled.div`
     }
     .hero__name {
       font-family: 'Montserrat SemiBold';
-      font-size: 7rem;
+      font-size: 5rem;
       color: var(--white);
     }
   }
   .hero__img {
-    max-width: 500px;
+    max-width: 380px;
     width: 100%;
-    height: 600px;
+    height: 460px;
     margin: 0 auto;
     border: 1px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: -14rem;
   }
   .hero_para {
     display:flex;
@@ -48,11 +48,10 @@ const HeroStyles = styled.div`
   }
   .hero_para p{
     max-width:80vw;
-    font-size:20px;
+    font-size:16px;
     text-align:center;
     color:white;
     padding:5px;
-    font-weight:300;
     background-color:#00000066;
   }
   .hero__social,

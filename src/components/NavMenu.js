@@ -29,17 +29,17 @@ const NavStyles = styled.nav`
       font-family: Inter, Roboto, Helvetica, Arial, Sans-Serif;
       padding: 1rem 0;
       margin: 0 3rem;
-      font-size: 2.5rem;
+      font-size: 1.7rem;
       color: var(--gray-1);
       outline: none;
     }
     .active {
       color: var(--light);
-      border-bottom: 5px solid var(--light);
+      border-bottom: 3px solid var(--light);
     }
     a:hover {
       color: var(--white);
-      border-bottom: 5px solid var(--light);
+      border-bottom: 3px solid var(--light);
     }
   }
   .mobile-menu-icon {

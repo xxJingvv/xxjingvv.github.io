@@ -7,7 +7,7 @@ import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
-  padding: 20rem 0 10rem 0;
+  padding: 10rem 0;
 
   .top-section {
     display: flex;
@@ -45,8 +45,11 @@ const AboutPageStyles = styled.div`
     }
   }
   .right {
+    display:flex;
+    justify-content:end;
     img {
-      border: 2px solid var(--gray-1);
+      max-width:360px;
+      border: 1px solid var(--gray-1);
     }
   }
   .about__info__items {
@@ -67,7 +70,7 @@ const AboutPageStyles = styled.div`
       gap: 5rem;
     }
     .about__subheading {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
     .about__heading {
       font-size: 2.8rem;
