@@ -91,25 +91,15 @@ export default function About() {
                             <p className="about__subheading">
                             You could call me <span>Jing</span> as well.
                             </p>
-                            <h2 className="about__heading">A Web designer / developer</h2>
+                            <h2 className="about__heading">A Web developer</h2>
                             <div className="about__info">
                                 <PText>
-                                    I used to work as an architect for 3 years in China, since I love designing
-                                    and visualizing objects when I was young. After that I was obsessed to programming
-                                    and made small programs by self-learning.
+                                    I'm a creator of digital experiences. My journey in web development began with a fascination for the limitless potential that lines of code hold in shaping the way we interact with the online world.
                                     <br /> <br />
-                                    Why not start a challenging life? I asked myself and came to Canada to pursue
-                                    more knowledge about coding and engineering. Building an app or website is
-                                    the like the same as building up a house.
-                                    I love it and now I have the opportunity to design
-                                    along with the coding. I find it really interesting and I
-                                    enjoyed the process a lot.
+                                    For me, it's not just about lines of code; it's about empowering users on their digital journeys. I've honed my skills in front-end development, ensuring that every website I create is an immersive experience that leaves a lasting impression. I take pride in crafting interfaces that are not just visually appealing, but also intuitive and seamless.
                                     <br />
                                     <br />
-                                    My vision is to make the world a better place. Now almost
-                                    everything is becoming better than ever. It is time for us to
-                                    create more good stuff that helps the world to become a better
-                                    place.
+                                    Beyond the surface, I delve into the world of back-end development to create robust and efficient systems. I'm well-versed in NodeJS and Python and thrive on the challenge of optimizing performance and security. Whether it's setting up databases, implementing APIs, or integrating third-party services, I ensure that the backbone of every website I create is as strong as its front end.
                                 </PText>
                             </div>
                         </div>
@@ -118,57 +108,58 @@ export default function About() {
                         </div>
                     </div>
                     <div className="about__info__items">
-                        <div className="about__info__item">
-                            <h1 className="about__info__heading">Education</h1>
-
-                            <AboutInfoItem
-                                title="Diploma"
-                                items={['Software Engineering Technology','Centennial Collage','Toronto']}
-                            />
-                            <AboutInfoItem
-                                title="Certificate"
-                                items={['Project Management','Centennial Collage', 'Toronto']}
-                            />
-                            <AboutInfoItem
-                                title="Master"
-                                items={['Architecture','South China University Of Technology','Guangzhou']}
-                            />
-                        </div>
+                        
                         <div className="about__info__item">
                             <h1 className="about__info__heading">My Skills</h1>
 
                             <AboutInfoItem
-                                title="FrontEnd"
-                                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                                title="Language"
+                                items={['JavaScript', 'NodeJS', 'Python', 'Java']}
                             />
                             <AboutInfoItem
-                                title="BackEnd"
-                                items={['Node', 'Express']}
+                                title="Library & Tools"
+                                items={['React','Express','Flask','Docker']}
                             />
                             <AboutInfoItem
-                                title="Design"
-                                items={['Photoshop','Illustrator', 'Indesign','Adobe XD','After Effects']}
+                                title="Database & Storage"
+                                items={['MySql','MongoDB', 'Neo4j']}
+                            />
+                            <AboutInfoItem
+                                title="Cloud Knowledge"
+                                items={['Amazon Web Services','Google Cloud']}
                             />
                         </div>
                         <div className="about__info__item">
                             <h1 className="about__info__heading">Experiences</h1>
 
                             <AboutInfoItem
-                                title="2021-2022"
+                                title="2022.2-Present"
+                                items={['Wweb developer at Pixfuture Media', 'Toronto']}
+                            />
+                            <AboutInfoItem
+                                title="2021.5-2021.12"
                                 items={['Junior web developer at Mark2Win IT Solutions', 'Toronto']}
                             />
+                        </div>
+
+                        <div className="about__info__item">
+                            <h1 className="about__info__heading">Education</h1>
+
                             <AboutInfoItem
-                                title="2020-2021"
-                                items={['UI designer at Mark2Win IT Solutions', 'Toronto']}
+                                title="Post Guaduate"
+                                items={['Master of Computer Science','University of Illimois at Urbana-Champaign','US']}
                             />
                             <AboutInfoItem
-                                title="2015-2018"
-                                items={['Architect', 'Guangzhou']}
+                                title="Advanced Diploma"
+                                items={['Software Engineering of Technology','Centennial Collage', 'Canada']}
+                            />
+                            <AboutInfoItem
+                                title="Bachelor"
+                                items={['Bachelor of Engineering','South China University Of Technology','China']}
                             />
                         </div>
                     </div>
                 </div>
-                <ContactBanner />
             </AboutPageStyles>
         </>
     );

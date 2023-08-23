@@ -60,9 +60,7 @@ export default function Footer() {
                 <div className="footer__col1">
                     <h1 className="footer__col1__title">Xiaojing Xu</h1>
                     <PText>
-                        A web designer and developer.
-                        I always make websites that have unique designs and also has a good
-                        performance rate.
+                        A developer based in Toronto. My journey is one of perpetual growth, and I'm eager to see how I can shape the future with my code.
                     </PText>
                 </div>
                 <div className="footer__col2">
