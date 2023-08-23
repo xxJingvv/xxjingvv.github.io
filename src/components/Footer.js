@@ -101,8 +101,8 @@ export default function Footer() {
                                 path: 'tel:+1(647)6226208',
                             },
                             {
-                                title: 'sanmerge@gmail.com',
-                                path: 'mailto:sanmerge@gmail.com',
+                                title: 'xxjingvv@gmail.com',
+                                path: 'mailto:xxjingvv@gmail.com',
                             },
                             {
                                 title: 'Scarborough, Ontario, Canada',
@@ -113,19 +113,23 @@ export default function Footer() {
                 </div>
                 <div className="footer__col4">
                     <FooterCol
-                        heading="social Links"
+                        heading="Social Links"
                         links={[
                             {
-                                title: 'Facebook',
-                                path: 'http://facebook.com',
+                                title: 'LinkedIn',
+                                path: 'https://www.linkedin.com/in/xiaojing-xu/',
                             },
                             {
-                                title: 'Twitter',
-                                path: 'http://twitter.com',
+                                title: 'GitHub',
+                                path: 'https://github.com/xxJingvv',
                             },
                             {
                                 title: 'Instagram',
-                                path: 'http://instagram.com',
+                                path: 'http://isntagram.com/xxjingvv',
+                            },
+                            {
+                                title: 'Facebook',
+                                path: 'https://www.facebook.com/profile.php?id=100022992270096',
                             },
                         ]}
                     />
@@ -134,7 +138,7 @@ export default function Footer() {
             <div className="copyright">
                 <div className="container">
                     <PText>
-                        © 2022 - Xiaojing Xu | Enjoy your life
+                        © 2023 - Xiaojing Xu | Enjoy your life
                     </PText>
                 </div>
             </div>

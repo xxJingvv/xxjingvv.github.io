@@ -26,7 +26,7 @@ const NavStyles = styled.nav`
     }
     a {
       display: inline-block;
-      font-family: 'Inter';
+      font-family: Inter, Roboto, Helvetica, Arial, Sans-Serif;
       padding: 1rem 2rem;
       font-size: 2rem;
       color: var(--gray-1);

@@ -8,7 +8,7 @@ import testimonials from '../assets/data/testimonials';
 
 const TestimonialSectionStyles = styled.div`
   overflow-x: hidden;
-  padding: 10rem 0;
+  padding: 5rem 0;
   text-align: center;
   .testimonial__wrapper {
     position: relative;
@@ -104,7 +104,7 @@ export default function TestimonialsSection() {
         <TestimonialSectionStyles>
             <div className="container">
                 <SectionTitle
-                    subheading="see what the clients/employers say"
+                    subheading="See what the Clients/Employers/Coworkers say"
                     heading="Testimonials"
                 />
                 <div className="testimonial__wrapper">

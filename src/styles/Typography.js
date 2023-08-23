@@ -20,14 +20,14 @@ const Typography = createGlobalStyle`
     font-style: normal;
   }
   html{
-    font-family: 'Inter';
-    font-weight:200;
+    font-family: Inter, Roboto, Helvetica, Arial, Sans-Serif;
+    font-weight:300;
     color: var(--gray-1);
   }
   *{
-    font-family: 'Inter';
+    font-family: Inter, Roboto, Helvetica, Arial, Sans-Serif;
     color: var(--gray-1);
-    font-weight:200;
+    font-weight:300;
   }
   h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat SemiBold'

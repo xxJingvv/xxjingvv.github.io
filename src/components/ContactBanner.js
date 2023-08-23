@@ -27,7 +27,7 @@ export default function ContactBanner() {
         <ContactBannerStyles>
             <div className="container">
                 <div className="contactBanner__wrapper">
-                    <PText>Got interested to hire me?</PText>
+                    <PText>Wanna discover more on me?</PText>
                     <h3 className="contactBanner__heading">Find me here</h3>
                     <Button btnText="Contact Now" btnLink="/contact" />
                 </div>

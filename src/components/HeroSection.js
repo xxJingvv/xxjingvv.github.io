@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero-0.png';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -9,7 +8,7 @@ import PText from './PText';
 const HeroStyles = styled.div`
   .hero {
     height: 100vh;
-    min-height: 1000px;
+    min-height: 900px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -33,14 +32,28 @@ const HeroStyles = styled.div`
     }
   }
   .hero__img {
-    max-width: 900px;
+    max-width: 500px;
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    border: 1px solid var(--gray-1);
   }
   .hero__info {
     margin-top: -18rem;
+  }
+  .hero_para {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .hero_para p{
+    max-width:80vw;
+    font-size:20px;
+    text-align:center;
+    color:white;
+    padding:5px;
+    font-weight:300;
+    background-color:#00000066;
   }
   .hero__social,
   .hero__scrollDown {
@@ -100,7 +113,7 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
-      min-height: 750px;
+      min-height: 650px;
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -114,6 +127,10 @@ const HeroStyles = styled.div`
     }
     .hero__info {
       margin-top: 3rem;
+    }
+    .hero_para p{
+      font-size:16px;
+      font-weight:200;
     }
     .hero__social {
       left: 0px;
@@ -160,13 +177,12 @@ export default function HeroSection() {
                         <span className="hero__name">Xiaojing Xu</span>
                     </h1>
                     <div className="hero__img">
-                        <img src={HeroImg} alt="" />
+                        <img srcset='/images/hero-0-2x.png 2x' src='/images/hero-0.png' alt="" />
                     </div>
-                    <div className="hero__info">
-                        <PText>
-                            I am working as a web designer and developer . I love to design and make new web experiences for the
-                            people.
-                        </PText>
+                    <div className="hero__info hero_para">
+                        <p>
+                        My journey began with an insatiable curiosity and a determination to understand the intricate world of programming.
+                        </p>
                         <Button btnText="see my works" btnLink="/projects" />
                     </div>
                     <div className="hero__social">
@@ -178,20 +194,20 @@ export default function HeroSection() {
                             <ul>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="https://www.linkedin.com/in/xiaojing-xu/"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        FB
+                                        LI
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="https://github.com/xxJingvv"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        TW
+                                        GIT
                                     </a>
                                 </li>
                                 <li>
@@ -205,11 +221,11 @@ export default function HeroSection() {
                                 </li>
                                 <li>
                                     <a
-                                        href="http://xxjingxx.com"
+                                        href="https://www.facebook.com/profile.php?id=100022992270096"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        LI
+                                        FB
                                     </a>
                                 </li>
                             </ul>

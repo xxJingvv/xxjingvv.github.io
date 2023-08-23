@@ -27,7 +27,7 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'Inter';
+    font-family: Inter, Roboto, Helvetica, Arial, Sans-Serif;
     margin-top: 1rem;
   }
   @media only screen and (max-width: 768px) {
