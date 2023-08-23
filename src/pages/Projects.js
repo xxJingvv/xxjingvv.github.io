@@ -69,7 +69,7 @@ export default function Projects() {
                 <div className="container">
                     <SectionTitle
                         heading="Projects"
-                        subheading="some of my recent works"
+                        subheading="Some of my recent works"
                     />
                     <div className="projects__searchBar">
                         <form>
@@ -89,6 +89,7 @@ export default function Projects() {
                                 title={item.name}
                                 desc={item.desc}
                                 img={item.img}
+                                link={item.link}
                             />
                         ))}
                     </div>

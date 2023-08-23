@@ -177,7 +177,7 @@ export default function HeroSection() {
                         <span className="hero__name">Xiaojing Xu</span>
                     </h1>
                     <div className="hero__img">
-                        <img srcset='/images/hero-0-2x.png 2x' src='/images/hero-0.png' alt="" />
+                        <img srcSet='/images/hero-0-2x.png 2x' src='/images/hero-0.png' alt="" />
                     </div>
                     <div className="hero__info hero_para">
                         <p>
